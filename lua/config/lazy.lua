@@ -23,14 +23,14 @@ require("lazy").setup({
 
   -- 插件声明
   spec = {
-    -- { import = "plugins.comment" },
-    -- { import = "plugins.treesitter" },
-    -- { import = "plugins.themes" },
-    -- { import = "plugins.lualine" },
-    -- { import = "plugins.mason" },
-    -- { import = "plugins.mason-lspconfig" },
-    -- { import = "plugins.lsp" },
-    -- { import = "plugins.nvim-cmp" },
+    { import = "plugins.comment" },
+    { import = "plugins.treesitter" },
+    { import = "plugins.themes" },
+    { import = "plugins.lualine" },
+    { import = "plugins.mason" },
+    { import = "plugins.mason-lspconfig" },
+    { import = "plugins.lsp" },
+    { import = "plugins.nvim-cmp" },
   },
 
   -- 控制插件的安装行为
